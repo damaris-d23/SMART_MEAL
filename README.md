@@ -4,18 +4,27 @@ SmartMeal is an Android mobile application that helps users discover recipe reco
 
 ## Screenshots
 
-| Home | Ingredients |
-|------|------------|
-| ![Home](screenshots/home.png) | ![Ingredients](screenshots/ingredients.png) |
+## Screenshots
 
-| Preferences | Results |
-|-------------|---------|
-| ![Preferences](screenshots/preferences.png) | ![Results](screenshots/results.png) |
+### Home Screen
 
-| Favorites |
-|-----------|
-| ![Favorites](screenshots/favorites.png) |
+![Home](home.png)
 
+### Ingredients Selection
+
+![Ingredients](ingredients.png)
+
+### Preferences
+
+![Preferences](preferences.png)
+
+### Results
+
+![Results](results.png)
+
+### Favorites
+
+![Favorites](favorites.png)
 ## Features
 
 - Choose cooking preferences such as time, mood and skill level
