@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ce ai prin casă?"
+        android:textSize="22sp"
+        android:textColor="@color/primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adaugă ingredientele pe care le ai disponibile"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Input + buton adaugă -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etIngredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ex: ouă, pâine, paste..."/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddIngredient"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="+"
+            android:textSize="22sp"
+            android:backgroundTint="@color/primary"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cornerRadius="8dp"/>
+    </LinearLayout>
+
+    <!-- Lista ingrediente adăugate -->
+    <TextView
+        android:id="@+id/tvIngredientsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientele tale:"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Chips pentru ingrediente (folosim FlexboxLayout sau simplu ListView) -->
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Sugestii rapide -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugestii rapide:"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupSuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNextFromIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Continuă →"
+        android:backgroundTint="@color/primary"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cornerRadius="28dp"/>
+
+</LinearLayout>

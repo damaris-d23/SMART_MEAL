@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nume rețetă"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Scor potrivire -->
+        <TextView
+            android:id="@+id/tvDetailScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/score_high"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Descriere scurtă -->
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Info rapide: timp, calorii, dificultate -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvDetailTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="@color/text_primary"
+                android:background="#F5F5F5"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailCalories"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="@color/text_primary"
+                android:background="#F5F5F5"
+                android:padding="8dp"
+                android:layout_marginHorizontal="4dp"/>
+
+            <!-- tvDetailCost păstrat pentru compatibilitate cu codul vechi -->
+            <TextView
+                android:id="@+id/tvDetailCost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tvDetailDifficulty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="@color/text_primary"
+                android:background="#F5F5F5"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+        <!-- Buton Favorite -->
+        <TextView
+            android:id="@+id/btnDetailFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="🤍 Adaugă la favorite"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="@drawable/score_badge_bg"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Rezumat ingrediente -->
+        <TextView
+            android:id="@+id/tvDetailIngredientSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"/>
+
+        <!-- Ce ai deja -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ce ai deja"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailOwned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/score_high"
+            android:textSize="13sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="12dp"
+            android:visibility="gone"/>
+
+        <!-- Trebuie să cumperi -->
+        <TextView
+            android:id="@+id/tvDetailMissingLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛒 Trebuie să cumperi"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/score_medium"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailMissing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/score_medium"
+            android:textSize="13sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Alergeni -->
+        <TextView
+            android:id="@+id/tvDetailAllergens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/score_low"
+            android:textSize="13sp"
+            android:background="#FFEBEE"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"/>
+
+        <!-- Ingrediente necesare -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrediente necesare"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- De ce a fost recomandată -->
+        <TextView
+            android:id="@+id/tvReasonsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💡 De ce îți recomandăm această rețetă"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/layoutReasons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E8F5E9"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"/>
+
+        <!-- Mod de preparare -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mod de preparare"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

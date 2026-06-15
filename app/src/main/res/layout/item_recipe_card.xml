@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <!-- Rând 1: Nume + Favorite + Score -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/tvRecipeName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:textStyle="bold"/>
+
+            <!-- Buton favorite (emoji simplu) -->
+            <TextView
+                android:id="@+id/btnFavorite"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:text="🤍"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginEnd="6dp"/>
+
+            <!-- Badge scor -->
+            <TextView
+                android:id="@+id/tvMatchScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/score_high"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:background="@drawable/score_badge_bg"/>
+        </LinearLayout>
+
+        <!-- Badge "Cea mai bună potrivire" -->
+        <TextView
+            android:id="@+id/tvBestMatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Cea mai bună potrivire"
+            android:textSize="11sp"
+            android:textColor="#5D4037"
+            android:background="#FFF8E1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="3dp"
+            android:layout_marginBottom="6dp"
+            android:visibility="gone"/>
+
+        <!-- Rând 2: Timp, Calorii, Dificultate -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:id="@+id/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:id="@+id/tvDifficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/score_medium"/>
+        </LinearLayout>
+
+        <!-- Rezumat ingrediente: "Ai 4 din 6 ingrediente" -->
+        <TextView
+            android:id="@+id/tvIngredientSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:visibility="gone"/>
+
+        <!-- Chips etichete -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupTags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Ingrediente lipsă -->
+        <TextView
+            android:id="@+id/tvMissing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/score_high"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Primul motiv recomandare -->
+        <TextView
+            android:id="@+id/tvFirstReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="@color/text_secondary"
+            android:fontStyle="italic"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

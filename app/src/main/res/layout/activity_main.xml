@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Conținut centrat -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <!-- Logo vectorial în loc de emoji -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_logo_smartmeal"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="SmartMeal logo"/>
+
+        <!-- Titlu -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SmartMeal"
+            android:textSize="34sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:letterSpacing="0.02"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Subtitlu -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rețete inteligente pentru studenți"
+            android:textSize="15sp"
+            android:textColor="@color/text_secondary"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bazate pe ingredientele tale,\ntimpul disponibil și preferințele medicale."
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"/>
+
+        <!-- Buton principal -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStart"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:text="Găsește rețete"
+            android:textSize="16sp"
+            app:cornerRadius="28dp"
+            android:backgroundTint="@color/primary"/>
+
+        <!-- Buton secundar -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAllRecipes"
+            android:layout_width="280dp"
+            android:layout_height="52dp"
+            android:text="Toate rețetele"
+            android:textSize="15sp"
+            android:layout_marginTop="12dp"
+            app:cornerRadius="26dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeColor="@color/primary"
+            android:textColor="@color/primary"/>
+
+    </LinearLayout>
+
+    <!-- Bottom Navigation FĂRĂ conținut deasupra lui care să se suprapună -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@null"
+        app:elevation="8dp"/>
+
+</LinearLayout>

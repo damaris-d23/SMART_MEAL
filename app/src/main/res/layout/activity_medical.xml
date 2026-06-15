@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restricții și preferințe"
+                android:textSize="22sp"
+                android:textColor="@color/primary"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pasul 3 din 3"
+                android:textSize="13sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rețetele incompatibile cu selecțiile tale vor fi excluse automat."
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- SECȚIUNEA: Alergii -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚠️ Alergii"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="10dp"/>
+
+            <CheckBox android:id="@+id/cbLactoseFree"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Intoleranță la lactoză"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbGlutenFree"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Intoleranță la gluten"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbNutFree"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Alergie la nuci"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbEggFree"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Alergie la ouă"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbSeafoodFree"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Alergie la fructe de mare / pește"
+                android:textSize="14sp" android:layout_marginBottom="16dp"
+                android:textColor="@color/text_primary"/>
+
+            <!-- SECȚIUNEA: Condiții medicale -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏥 Condiții medicale"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="10dp"/>
+
+            <CheckBox android:id="@+id/cbDiabetic"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Diabet (fără zahăr adăugat)"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbLowSodium"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Hipertensiune (sodiu redus)"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbEasyDigestion"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Digestie sensibilă"
+                android:textSize="14sp" android:layout_marginBottom="16dp"
+                android:textColor="@color/text_primary"/>
+
+            <!-- SECȚIUNEA: Preferințe alimentare -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥗 Preferințe alimentare"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="10dp"/>
+
+            <CheckBox android:id="@+id/cbVegetarian"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Vegetarian"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbVegan"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Vegan"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbNoSpicy"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Evit mâncarea picantă"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbNoFried"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Evit mâncarea prăjită"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbNoSugar"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Evit zahărul"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbNoRedMeat"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Evit carnea roșie"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbNoPork"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Evit carnea de porc"
+                android:textSize="14sp" android:layout_marginBottom="16dp"
+                android:textColor="@color/text_primary"/>
+
+            <!-- SECȚIUNEA: Obiective nutriționale -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎯 Obiective nutriționale"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="10dp"/>
+
+            <CheckBox android:id="@+id/cbHighProtein"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Proteine ridicate"
+                android:textSize="14sp" android:layout_marginBottom="8dp"
+                android:textColor="@color/text_primary"/>
+            <CheckBox android:id="@+id/cbLowCalorie"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text=" Calorii reduse"
+                android:textSize="14sp" android:layout_marginBottom="24dp"
+                android:textColor="@color/text_primary"/>
+
+            <!-- SECȚIUNEA: Ingrediente de evitat (input liber) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🚫 Ingrediente pe care vrei să le eviți"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ex: ceapă, ciuperci, usturoi, lapte"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="8dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginBottom="32dp"
+                android:hint="Scrie ingredientele separate prin virgulă">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etAvoidIngredients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Butoane navigare jos -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/surface">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="← Înapoi"
+            android:layout_marginEnd="8dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeColor="@color/primary"
+            android:textColor="@color/primary"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFindRecipes"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"
+            android:text="🔍 Găsește rețete"
+            android:backgroundTint="@color/primary"/>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@null"
+        />
+
+</LinearLayout>

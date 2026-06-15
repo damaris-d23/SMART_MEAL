@@ -1,0 +1,2558 @@
+{
+  "recipes": [
+    {
+      "id": "r001",
+      "name": "Omletă simplă",
+      "description": "Clasic și rapid, perfect când ești obosit.",
+      "ingredients": [
+        "ouă",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 250,
+      "allergens": [
+        "ou"
+      ],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free",
+        "quick"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic",
+        "low_sodium",
+        "vegetarian"
+      ],
+      "steps": [
+        "Bate 2-3 ouă cu puțină sare.",
+        "Încălzește ulei într-o tigaie la foc mediu.",
+        "Toarnă ouăle și lasă 2-3 minute.",
+        "Pliază și servește imediat."
+      ]
+    },
+    {
+      "id": "r002",
+      "name": "Sandwich cu ou",
+      "description": "Gustos, ieftin și rapid.",
+      "ingredients": [
+        "pâine",
+        "ouă",
+        "ketchup",
+        "ulei"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "EASY",
+      "calories": 350,
+      "allergens": [
+        "gluten",
+        "ou"
+      ],
+      "tags": [
+        "lactose_free",
+        "quick"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "diabetic",
+        "vegetarian"
+      ],
+      "steps": [
+        "Prăjește pâinea.",
+        "Prăjește oul în puțin ulei.",
+        "Pune oul pe pâine și adaugă ketchup.",
+        "Acoperă cu a doua felie."
+      ]
+    },
+    {
+      "id": "r003",
+      "name": "Paste cu unt și parmezan",
+      "description": "Rețeta clasică de student, gata în 20 de minute.",
+      "ingredients": [
+        "paste",
+        "unt",
+        "parmezan",
+        "sare"
+      ],
+      "timeMinutes": 20,
+      "difficulty": "EASY",
+      "calories": 450,
+      "allergens": [
+        "gluten",
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "quick"
+      ],
+      "compatibleWith": [
+        "diabetic",
+        "vegetarian"
+      ],
+      "steps": [
+        "Fierbe pastele conform instrucțiunilor.",
+        "Scurge apa, adaugă unt și amestecă.",
+        "Rade parmezan deasupra și servește."
+      ]
+    },
+    {
+      "id": "r004",
+      "name": "Noodles instant cu ou",
+      "description": "Rapid și sătios.",
+      "ingredients": [
+        "noodles instant",
+        "ouă",
+        "sos de soia"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 380,
+      "allergens": [
+        "gluten",
+        "ou",
+        "soia"
+      ],
+      "tags": [
+        "lactose_free",
+        "quick"
+      ],
+      "compatibleWith": [
+        "lactose_free"
+      ],
+      "steps": [
+        "Fierbe noodles-urile 3 minute.",
+        "Adaugă oul bătut și amestecă rapid.",
+        "Adaugă sosul de soia și servește fierbinte."
+      ]
+    },
+    {
+      "id": "r005",
+      "name": "Toast cu avocado",
+      "description": "Sănătos și trendy.",
+      "ingredients": [
+        "pâine",
+        "avocado",
+        "sare",
+        "lămâie"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 300,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan",
+        "lactose_free",
+        "quick",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Prăjește pâinea.",
+        "Zdrobește avocado cu sare și suc de lămâie.",
+        "Întinde pasta pe toast și servește."
+      ]
+    },
+    {
+      "id": "r006",
+      "name": "Salată de roșii cu brânză feta",
+      "description": "Rapid, fără gătit, răcoritor.",
+      "ingredients": [
+        "roșii",
+        "brânză feta",
+        "ulei de măsline",
+        "sare"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 200,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "low_calorie",
+        "quick"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian",
+        "low_sodium"
+      ],
+      "steps": [
+        "Taie roșiile în cuburi.",
+        "Adaugă brânza feta sfărâmițată.",
+        "Stropește cu ulei de măsline și sare."
+      ]
+    },
+    {
+      "id": "r007",
+      "name": "Orez cu legume",
+      "description": "Sănătos, fără alergeni comuni.",
+      "ingredients": [
+        "orez",
+        "morcov",
+        "mazăre",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 30,
+      "difficulty": "MEDIUM",
+      "calories": 350,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "gluten_free",
+        "lactose_free",
+        "vegetarian"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic",
+        "vegetarian",
+        "vegan",
+        "low_sodium"
+      ],
+      "steps": [
+        "Fierbe orezul conform instrucțiunilor.",
+        "Căliți morcovul tăiat cubulețe în ulei 5 minute.",
+        "Adaugă mazărea, călește 3 minute.",
+        "Amestecă legumele cu orezul fiert."
+      ]
+    },
+    {
+      "id": "r008",
+      "name": "Supă de pui",
+      "description": "Reconfortantă și ușor digerabilă.",
+      "ingredients": [
+        "piept de pui",
+        "morcov",
+        "țelină",
+        "ceapă",
+        "sare"
+      ],
+      "timeMinutes": 40,
+      "difficulty": "MEDIUM",
+      "calories": 280,
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Pune puiul în apă rece și aduce la fierbere.",
+        "Adaugă legumele tăiate și sare.",
+        "Fierbe 35 de minute la foc mic.",
+        "Strecoară și servește."
+      ]
+    },
+    {
+      "id": "r009",
+      "name": "Cartofi copți la cuptor",
+      "description": "Gustos și simplu, dar necesită timp.",
+      "ingredients": [
+        "cartofi",
+        "ulei",
+        "sare",
+        "boia"
+      ],
+      "timeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "calories": 300,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "gluten_free",
+        "lactose_free",
+        "vegetarian"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic"
+      ],
+      "steps": [
+        "Preîncălzește cuptorul la 200°C.",
+        "Taie cartofii cubulețe, amestecă cu ulei, sare și boia.",
+        "Coace 35-40 minute până sunt aurii."
+      ]
+    },
+    {
+      "id": "r010",
+      "name": "Paste cu sos de roșii",
+      "description": "Clasic italian, simplu și rapid.",
+      "ingredients": [
+        "paste",
+        "sos de roșii",
+        "usturoi",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "calories": 420,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan",
+        "lactose_free",
+        "vegetarian"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Fierbe pastele.",
+        "Căliți usturoiul în ulei 1 minut.",
+        "Adaugă sosul de roșii, fierbe 5 minute.",
+        "Amestecă cu pastele scurse."
+      ]
+    },
+    {
+      "id": "r011",
+      "name": "Ouă fierte cu pâine",
+      "description": "Cel mai simplu prânz proteic.",
+      "ingredients": [
+        "ouă",
+        "pâine",
+        "sare"
+      ],
+      "timeMinutes": 12,
+      "difficulty": "EASY",
+      "calories": 280,
+      "allergens": [
+        "gluten",
+        "ou"
+      ],
+      "tags": [
+        "high_protein",
+        "quick",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "diabetic",
+        "low_sodium",
+        "vegetarian"
+      ],
+      "steps": [
+        "Pune ouăle în apă rece.",
+        "Fierbe 8-10 minute pentru ouă tari.",
+        "Curăță și servește cu pâine."
+      ]
+    },
+    {
+      "id": "r012",
+      "name": "Smoothie cu banană și lapte",
+      "description": "Rapid și energizant, necesită blender.",
+      "ingredients": [
+        "banană",
+        "lapte",
+        "miere"
+      ],
+      "timeMinutes": 5,
+      "difficulty": "EASY",
+      "calories": 250,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "quick",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Pune banana tăiată în blender.",
+        "Adaugă laptele și mierea.",
+        "Blendează 30 secunde și servește."
+      ]
+    },
+    {
+      "id": "r013",
+      "name": "Fasole cu pâine",
+      "description": "Proteic și sățios.",
+      "ingredients": [
+        "fasole la conservă",
+        "pâine",
+        "ulei",
+        "usturoi"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 400,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan",
+        "lactose_free",
+        "vegetarian",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Scurge fasolea și clătește-o.",
+        "Căliți usturoiul în ulei 1 minut.",
+        "Adaugă fasolea, fierbe 5 minute.",
+        "Servește cu pâine prăjită."
+      ]
+    },
+    {
+      "id": "r014",
+      "name": "Iaurt cu fructe și miere",
+      "description": "Desert sănătos în 5 minute.",
+      "ingredients": [
+        "iaurt",
+        "banană",
+        "miere"
+      ],
+      "timeMinutes": 5,
+      "difficulty": "EASY",
+      "calories": 200,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "low_calorie",
+        "quick",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Pune iaurtul în bol.",
+        "Taie banana felii deasupra.",
+        "Adaugă miere după gust."
+      ]
+    },
+    {
+      "id": "r015",
+      "name": "Salată de ton",
+      "description": "Proteic, rapid, fără gătit.",
+      "ingredients": [
+        "ton la conservă",
+        "roșii",
+        "castraveți",
+        "ulei de măsline",
+        "sare"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 250,
+      "allergens": [
+        "pește"
+      ],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie",
+        "quick"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Scurge tonul.",
+        "Taie roșiile și castraveții cubulețe.",
+        "Amestecă totul, stropește cu ulei și sare."
+      ]
+    },
+    {
+      "id": "r016",
+      "name": "Pui la tigaie cu usturoi",
+      "description": "Proteic și delicios, gata în 20 de minute.",
+      "ingredients": [
+        "piept de pui",
+        "usturoi",
+        "ulei",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 20,
+      "difficulty": "MEDIUM",
+      "calories": 300,
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Bate pieptul de pui ușor și condimentează.",
+        "Încălzește ulei în tigaie la foc mediu-mare.",
+        "Prăjește 6-7 minute pe fiecare parte.",
+        "Adaugă usturoiul tocat în ultimul minut."
+      ]
+    },
+    {
+      "id": "r017",
+      "name": "Humus cu lipie",
+      "description": "Gustare sănătoasă și sățioasă.",
+      "ingredients": [
+        "năut la conservă",
+        "tahini",
+        "lămâie",
+        "usturoi",
+        "lipie"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "MEDIUM",
+      "calories": 380,
+      "allergens": [
+        "gluten",
+        "susan"
+      ],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Scurge și clătește năutul.",
+        "Blendează năutul cu tahini, lămâie, usturoi și sare.",
+        "Adaugă apă până obții consistența dorită.",
+        "Servește cu lipie."
+      ]
+    },
+    {
+      "id": "r018",
+      "name": "Orez cu ou prăjit",
+      "description": "Clasic asiatic, gata rapid.",
+      "ingredients": [
+        "orez fiert",
+        "ouă",
+        "sos de soia",
+        "ulei",
+        "ceapă verde"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "MEDIUM",
+      "calories": 420,
+      "allergens": [
+        "ou",
+        "soia"
+      ],
+      "tags": [
+        "lactose_free",
+        "quick"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free"
+      ],
+      "steps": [
+        "Încălzește ulei în tigaie.",
+        "Adaugă orezul fiert și amestecă 3 minute.",
+        "Împinge orezul la margine, sparge ouăle în centru.",
+        "Amestecă ouăle, adaugă sos de soia și ceapă verde."
+      ]
+    },
+    {
+      "id": "r019",
+      "name": "Supă cremă de roșii",
+      "description": "Reconfortantă și ușor de făcut.",
+      "ingredients": [
+        "roșii",
+        "ceapă",
+        "usturoi",
+        "ulei de măsline",
+        "sare"
+      ],
+      "timeMinutes": 30,
+      "difficulty": "MEDIUM",
+      "calories": 180,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "gluten_free",
+        "lactose_free",
+        "vegetarian",
+        "low_calorie",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Căliți ceapa și usturoiul în ulei.",
+        "Adaugă roșiile tăiate și 300ml apă.",
+        "Fierbe 20 minute la foc mic.",
+        "Blendează și potrivește sarea."
+      ]
+    },
+    {
+      "id": "r020",
+      "name": "Bruschetă cu roșii",
+      "description": "Gustare rapidă și gustoasă.",
+      "ingredients": [
+        "pâine",
+        "roșii",
+        "usturoi",
+        "ulei de măsline",
+        "busuioc"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 220,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "quick",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Prăjește pâinea.",
+        "Freacă o felie cu usturoi.",
+        "Pune roșiile tăiate mărunt deasupra.",
+        "Stropește cu ulei de măsline și adaugă busuioc."
+      ]
+    },
+    {
+      "id": "r021",
+      "name": "Piept de pui la cuptor",
+      "description": "Dietetic și proteic.",
+      "ingredients": [
+        "piept de pui",
+        "lămâie",
+        "usturoi",
+        "ulei de măsline",
+        "sare",
+        "boia"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 250,
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Preîncălzește cuptorul la 180°C.",
+        "Condimentează puiul cu sare, boia și usturoi.",
+        "Stropește cu ulei și suc de lămâie.",
+        "Coace 25-30 de minute."
+      ]
+    },
+    {
+      "id": "r022",
+      "name": "Salată de linte",
+      "description": "Proteică și sățioasă.",
+      "ingredients": [
+        "linte roșie",
+        "roșii",
+        "castraveți",
+        "ulei de măsline",
+        "lămâie",
+        "sare"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "calories": 320,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "gluten_free",
+        "lactose_free",
+        "vegetarian",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic"
+      ],
+      "steps": [
+        "Fierbe lintea roșie 15 minute.",
+        "Scurge și lasă să se răcească.",
+        "Adaugă legumele tăiate, ulei și suc de lămâie.",
+        "Amestecă și potrivește sarea."
+      ]
+    },
+    {
+      "id": "r023",
+      "name": "Omletă cu legume",
+      "description": "Consistent și nutritiv.",
+      "ingredients": [
+        "ouă",
+        "ardei",
+        "roșii",
+        "ceapă",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "EASY",
+      "calories": 290,
+      "allergens": [
+        "ou"
+      ],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free",
+        "vegetarian",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "diabetic"
+      ],
+      "steps": [
+        "Toacă legumele mărunt.",
+        "Căliți legumele în ulei 3 minute.",
+        "Toarnă ouăle bătute peste legume.",
+        "Lasă 4-5 minute la foc mic."
+      ]
+    },
+    {
+      "id": "r024",
+      "name": "Griș cu lapte",
+      "description": "Simplu și reconfortant.",
+      "ingredients": [
+        "griș",
+        "lapte",
+        "zahăr",
+        "sare"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "EASY",
+      "calories": 300,
+      "allergens": [
+        "lapte",
+        "gluten"
+      ],
+      "tags": [
+        "vegetarian",
+        "easy_digestion",
+        "quick"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Fierbe laptele.",
+        "Adaugă grișul în ploaie, amestecând continuu.",
+        "Adaugă zahăr și un praf de sare.",
+        "Fierbe 5 minute amestecând."
+      ]
+    },
+    {
+      "id": "r025",
+      "name": "Pâine prăjită cu unt și gem",
+      "description": "Mic-dejun clasic în 3 minute.",
+      "ingredients": [
+        "pâine",
+        "unt",
+        "gem"
+      ],
+      "timeMinutes": 3,
+      "difficulty": "EASY",
+      "calories": 280,
+      "allergens": [
+        "gluten",
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "quick"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Prăjește pâinea.",
+        "Unge cu unt și adaugă gem după gust."
+      ]
+    },
+    {
+      "id": "r026",
+      "name": "Paste integrale cu broccoli",
+      "description": "Sănătos și nutritiv.",
+      "ingredients": [
+        "paste integrale",
+        "broccoli",
+        "usturoi",
+        "ulei de măsline",
+        "sare"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "calories": 380,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan",
+        "diabetic"
+      ],
+      "steps": [
+        "Fierbe pastele.",
+        "Fierbe broccoli 5 minute.",
+        "Căliți usturoiul în ulei.",
+        "Amestecă pastele cu broccoli și usturoi."
+      ]
+    },
+    {
+      "id": "r027",
+      "name": "Somon la tigaie",
+      "description": "Bogat în omega-3, gata în 15 minute.",
+      "ingredients": [
+        "file de somon",
+        "lămâie",
+        "ulei de măsline",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "MEDIUM",
+      "calories": 320,
+      "allergens": [
+        "pește"
+      ],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Condimentează somonul cu sare și piper.",
+        "Încălzește ulei în tigaie.",
+        "Prăjește 4-5 minute pe fiecare parte.",
+        "Stropește cu suc de lămâie."
+      ]
+    },
+    {
+      "id": "r028",
+      "name": "Shakshuka",
+      "description": "Ouă în sos de roșii, specific mediteranean.",
+      "ingredients": [
+        "ouă",
+        "roșii",
+        "ardei",
+        "ceapă",
+        "usturoi",
+        "boia",
+        "ulei"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "calories": 310,
+      "allergens": [
+        "ou"
+      ],
+      "tags": [
+        "gluten_free",
+        "lactose_free",
+        "vegetarian",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "diabetic"
+      ],
+      "steps": [
+        "Căliți ceapa și ardeiul în ulei 5 minute.",
+        "Adaugă usturoi și boia, 1 minut.",
+        "Adaugă roșiile tăiate, fierbe 10 minute.",
+        "Fă goluri în sos și sparge ouăle.",
+        "Acoperă și lasă 5 minute."
+      ]
+    },
+    {
+      "id": "r029",
+      "name": "Fulgi de ovăz cu fructe",
+      "description": "Mic-dejun sățios și sănătos.",
+      "ingredients": [
+        "fulgi de ovăz",
+        "lapte",
+        "banană",
+        "miere"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 350,
+      "allergens": [
+        "lapte",
+        "gluten"
+      ],
+      "tags": [
+        "vegetarian",
+        "easy_digestion",
+        "quick"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Fierbe laptele.",
+        "Adaugă fulgii de ovăz și amestecă 5 minute.",
+        "Pune banana feliată deasupra.",
+        "Adaugă miere după gust."
+      ]
+    },
+    {
+      "id": "r030",
+      "name": "Clatite simple",
+      "description": "Rețetă de bază, versatilă.",
+      "ingredients": [
+        "făină",
+        "ouă",
+        "lapte",
+        "zahăr",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "calories": 400,
+      "allergens": [
+        "gluten",
+        "ou",
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Amestecă făina, ouăle, laptele, zahărul și sarea.",
+        "Lasă aluatul 10 minute.",
+        "Prăjește câte o lingură de aluat în tigaie unsă.",
+        "Servește cu gem sau miere."
+      ]
+    },
+    {
+      "id": "r031",
+      "name": "Wrap cu pui și legume",
+      "description": "O masă rapidă, proteică și ușor de luat la pachet.",
+      "ingredients": [
+        "lipie",
+        "piept de pui",
+        "salată verde",
+        "roșii",
+        "castraveți",
+        "iaurt",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "calories": 480,
+      "allergens": [
+        "gluten",
+        "lapte"
+      ],
+      "tags": [
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "diabetic"
+      ],
+      "steps": [
+        "Taie pieptul de pui în fâșii subțiri pentru a se găti mai repede.",
+        "Condimentează puiul cu sare și piper.",
+        "Gătește puiul într-o tigaie încinsă 8-10 minute, până nu mai este roz în interior.",
+        "Taie roșiile și castraveții în bucăți mici.",
+        "Încălzește lipia 20-30 de secunde într-o tigaie curată.",
+        "Pune salata, legumele, puiul și puțin iaurt în lipie.",
+        "Rulează strâns și servește imediat."
+      ]
+    },
+    {
+      "id": "r032",
+      "name": "Cartofi fierți cu iaurt și verdeață",
+      "description": "Simplu, ieftin și potrivit când vrei ceva ușor.",
+      "ingredients": [
+        "cartofi",
+        "iaurt",
+        "pătrunjel",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "EASY",
+      "calories": 330,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Spală cartofii și curăță-i de coajă dacă preferi.",
+        "Taie cartofii cuburi egale ca să fiarbă uniform.",
+        "Fierbe-i în apă cu puțină sare 15-20 de minute.",
+        "Verifică dacă sunt moi cu o furculiță.",
+        "Scurge apa și lasă cartofii 2 minute să se răcorească.",
+        "Adaugă iaurt, pătrunjel tocat și piper.",
+        "Amestecă ușor ca să nu zdrobești complet cartofii."
+      ]
+    },
+    {
+      "id": "r033",
+      "name": "Quesadilla cu cașcaval și legume",
+      "description": "Rapidă, crocantă și potrivită pentru o cină simplă.",
+      "ingredients": [
+        "lipie",
+        "cașcaval",
+        "ardei",
+        "porumb",
+        "roșii",
+        "ulei"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "EASY",
+      "calories": 430,
+      "allergens": [
+        "gluten",
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "quick"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Taie ardeiul și roșiile în bucăți mici.",
+        "Pune o lipie într-o tigaie antiaderentă.",
+        "Adaugă cașcaval ras pe jumătate din lipie.",
+        "Pune legumele peste cașcaval.",
+        "Împăturește lipia și apasă ușor cu spatula.",
+        "Gătește 2-3 minute pe fiecare parte, până devine aurie.",
+        "Taie în triunghiuri și servește caldă."
+      ]
+    },
+    {
+      "id": "r034",
+      "name": "Paste cu ton și porumb",
+      "description": "Rețetă sățioasă pentru zilele când ai nevoie de energie.",
+      "ingredients": [
+        "paste",
+        "ton la conservă",
+        "porumb",
+        "ulei de măsline",
+        "lămâie",
+        "sare"
+      ],
+      "timeMinutes": 20,
+      "difficulty": "EASY",
+      "calories": 520,
+      "allergens": [
+        "gluten",
+        "pește"
+      ],
+      "tags": [
+        "high_protein",
+        "quick",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free"
+      ],
+      "steps": [
+        "Fierbe pastele conform instrucțiunilor de pe ambalaj.",
+        "Scurge pastele și păstrează 2 linguri de apă de la fierbere.",
+        "Scurge tonul și porumbul din conservă.",
+        "Amestecă pastele cu tonul, porumbul și uleiul de măsline.",
+        "Adaugă suc de lămâie pentru gust mai proaspăt.",
+        "Potrivește sarea și amestecă ușor.",
+        "Servește cald sau rece, ca salată de paste."
+      ]
+    },
+    {
+      "id": "r035",
+      "name": "Tocăniță rapidă de ciuperci",
+      "description": "O variantă vegetariană, caldă și sățioasă.",
+      "ingredients": [
+        "ciuperci",
+        "ceapă",
+        "usturoi",
+        "sos de roșii",
+        "ulei",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 30,
+      "difficulty": "MEDIUM",
+      "calories": 260,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic"
+      ],
+      "steps": [
+        "Curăță ciupercile și taie-le felii.",
+        "Toacă ceapa și usturoiul mărunt.",
+        "Călește ceapa în ulei 3-4 minute până devine moale.",
+        "Adaugă usturoiul și amestecă 30 de secunde.",
+        "Pune ciupercile și gătește până scade apa lăsată de ele.",
+        "Adaugă sosul de roșii, sare și piper.",
+        "Fierbe la foc mic 10 minute și servește cu orez sau pâine."
+      ]
+    },
+    {
+      "id": "r036",
+      "name": "Orez cu pui și legume",
+      "description": "Masă completă, bună pentru prânz sau cină.",
+      "ingredients": [
+        "orez",
+        "piept de pui",
+        "morcov",
+        "ardei",
+        "mazăre",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 40,
+      "difficulty": "MEDIUM",
+      "calories": 560,
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic"
+      ],
+      "steps": [
+        "Spală orezul în apă rece până apa devine mai clară.",
+        "Taie puiul cubulețe și condimentează-l ușor.",
+        "Gătește puiul în tigaie 8-10 minute.",
+        "Adaugă morcovul și ardeiul tăiate cubulețe.",
+        "Pune orezul și amestecă 1 minut.",
+        "Adaugă apă cât să acopere orezul și legumele.",
+        "Fierbe la foc mic până orezul este moale, apoi adaugă mazărea."
+      ]
+    },
+    {
+      "id": "r037",
+      "name": "Salată grecească simplă",
+      "description": "Fără gătit, potrivită pentru zile calde.",
+      "ingredients": [
+        "roșii",
+        "castraveți",
+        "brânză feta",
+        "măsline",
+        "ceapă roșie",
+        "ulei de măsline"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 310,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "quick",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian",
+        "low_sodium"
+      ],
+      "steps": [
+        "Spală roșiile și castraveții.",
+        "Taie legumele în bucăți medii.",
+        "Taie ceapa roșie felii subțiri.",
+        "Pune legumele într-un bol mare.",
+        "Adaugă brânza feta sfărâmițată și măslinele.",
+        "Stropește cu ulei de măsline.",
+        "Amestecă foarte ușor și servește rece."
+      ]
+    },
+    {
+      "id": "r038",
+      "name": "Curry de năut cu orez",
+      "description": "Rețetă vegană, aromată și sățioasă.",
+      "ingredients": [
+        "năut la conservă",
+        "orez",
+        "lapte de cocos",
+        "sos de roșii",
+        "curry",
+        "ceapă",
+        "ulei"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 590,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Fierbe orezul separat conform instrucțiunilor.",
+        "Toacă ceapa și călește-o în ulei 3 minute.",
+        "Adaugă pudra de curry și amestecă 30 de secunde.",
+        "Pune năutul scurs și sosul de roșii.",
+        "Adaugă laptele de cocos și amestecă bine.",
+        "Fierbe 15 minute la foc mic până sosul se îngroașă.",
+        "Servește curry-ul peste orez cald."
+      ]
+    },
+    {
+      "id": "r039",
+      "name": "Supă cremă de dovlecel",
+      "description": "Ușoară, cremoasă și bună pentru digestie.",
+      "ingredients": [
+        "dovlecel",
+        "cartof",
+        "ceapă",
+        "usturoi",
+        "ulei de măsline",
+        "sare"
+      ],
+      "timeMinutes": 30,
+      "difficulty": "EASY",
+      "calories": 190,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Spală dovlecelul și taie-l cuburi.",
+        "Curăță cartoful și taie-l în bucăți mici.",
+        "Călește ceapa și usturoiul în puțin ulei.",
+        "Adaugă dovlecelul, cartoful și apă cât să le acopere.",
+        "Fierbe 20 de minute, până legumele sunt moi.",
+        "Blendează supa până devine fină.",
+        "Potrivește gustul cu sare și servește caldă."
+      ]
+    },
+    {
+      "id": "r040",
+      "name": "Lipie cu humus și legume",
+      "description": "Gustare vegană, rapidă și foarte practică.",
+      "ingredients": [
+        "lipie",
+        "humus",
+        "morcov",
+        "castraveți",
+        "salată verde"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 360,
+      "allergens": [
+        "gluten",
+        "susan"
+      ],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "quick",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Încălzește lipia într-o tigaie uscată câteva secunde.",
+        "Întinde humus pe toată suprafața lipiei.",
+        "Taie morcovul și castravetele în bastonașe subțiri.",
+        "Adaugă salată verde peste humus.",
+        "Pune legumele în centru.",
+        "Rulează lipia strâns ca să nu cadă umplutura.",
+        "Taie în două și servește imediat."
+      ]
+    },
+    {
+      "id": "r041",
+      "name": "Mămăligă cu brânză și iaurt",
+      "description": "Mâncare românească simplă, sățioasă și ieftină.",
+      "ingredients": [
+        "mălai",
+        "brânză telemea",
+        "iaurt",
+        "sare"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "EASY",
+      "calories": 430,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Pune apă la fiert cu un praf de sare.",
+        "Când apa începe să fiarbă, adaugă mălaiul treptat.",
+        "Amestecă încontinuu ca să nu se formeze cocoloașe.",
+        "Fierbe 10-15 minute la foc mic, amestecând des.",
+        "Pune mămăliga într-un bol sau pe farfurie.",
+        "Adaugă brânză telemea sfărâmițată.",
+        "Servește cu iaurt lângă sau deasupra."
+      ]
+    },
+    {
+      "id": "r042",
+      "name": "Tocăniță de cartofi",
+      "description": "Rețetă caldă, simplă și potrivită pentru mai multe porții.",
+      "ingredients": [
+        "cartofi",
+        "ceapă",
+        "morcov",
+        "sos de roșii",
+        "ulei",
+        "boia",
+        "sare"
+      ],
+      "timeMinutes": 40,
+      "difficulty": "MEDIUM",
+      "calories": 370,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic"
+      ],
+      "steps": [
+        "Curăță cartofii, ceapa și morcovul.",
+        "Taie cartofii cuburi și morcovul rondele.",
+        "Călește ceapa în puțin ulei 3 minute.",
+        "Adaugă morcovul și boiaua, apoi amestecă.",
+        "Pune cartofii și sosul de roșii.",
+        "Adaugă apă cât să acopere cartofii.",
+        "Fierbe 25-30 de minute până cartofii sunt moi."
+      ]
+    },
+    {
+      "id": "r043",
+      "name": "Salată de paste cu legume",
+      "description": "Bună pentru pachet, se poate mânca rece.",
+      "ingredients": [
+        "paste",
+        "roșii",
+        "castraveți",
+        "porumb",
+        "ulei de măsline",
+        "lămâie",
+        "sare"
+      ],
+      "timeMinutes": 20,
+      "difficulty": "EASY",
+      "calories": 440,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "lactose_free",
+        "quick"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Fierbe pastele până devin al dente.",
+        "Scurge pastele și clătește-le cu puțină apă rece.",
+        "Taie roșiile și castraveții cuburi.",
+        "Scurge porumbul din conservă.",
+        "Pune toate ingredientele într-un bol mare.",
+        "Adaugă ulei de măsline, lămâie și sare.",
+        "Amestecă bine și lasă 5 minute înainte de servire."
+      ]
+    },
+    {
+      "id": "r044",
+      "name": "Burger de năut",
+      "description": "Variantă vegetariană mai complexă, bună pentru cină.",
+      "ingredients": [
+        "năut la conservă",
+        "pesmet",
+        "ceapă",
+        "usturoi",
+        "pătrunjel",
+        "ulei",
+        "chiflă"
+      ],
+      "timeMinutes": 45,
+      "difficulty": "HARD",
+      "calories": 520,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegetarian",
+        "high_protein",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Scurge năutul și pasează-l cu o furculiță.",
+        "Toacă ceapa, usturoiul și pătrunjelul foarte mărunt.",
+        "Amestecă năutul cu legumele și pesmetul.",
+        "Formează chiftele plate pentru burger.",
+        "Lasă compoziția 10 minute la frigider dacă este prea moale.",
+        "Prăjește chiftelele 3-4 minute pe fiecare parte.",
+        "Pune chifteaua în chiflă cu legume la alegere."
+      ]
+    },
+    {
+      "id": "r045",
+      "name": "Terci de ovăz cu măr",
+      "description": "Mic-dejun cald, sățios și ușor de făcut.",
+      "ingredients": [
+        "fulgi de ovăz",
+        "lapte",
+        "măr",
+        "scorțișoară",
+        "miere"
+      ],
+      "timeMinutes": 12,
+      "difficulty": "EASY",
+      "calories": 360,
+      "allergens": [
+        "lapte",
+        "gluten"
+      ],
+      "tags": [
+        "vegetarian",
+        "easy_digestion",
+        "quick"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Spală mărul și dă-l pe răzătoare.",
+        "Pune laptele într-o cratiță mică.",
+        "Adaugă fulgii de ovăz și amestecă.",
+        "Fierbe 5-7 minute la foc mic.",
+        "Adaugă mărul ras și scorțișoara.",
+        "Mai fierbe 1-2 minute până se îngroașă.",
+        "Servește cu puțină miere deasupra."
+      ]
+    },
+    {
+      "id": "r046",
+      "name": "Tofu cu legume la tigaie",
+      "description": "Rețetă vegană, proteică și colorată.",
+      "ingredients": [
+        "tofu",
+        "ardei",
+        "dovlecel",
+        "morcov",
+        "sos de soia",
+        "ulei"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "calories": 390,
+      "allergens": [
+        "soia"
+      ],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "lactose_free",
+        "high_protein",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "vegetarian",
+        "vegan",
+        "diabetic"
+      ],
+      "steps": [
+        "Scurge tofu și taie-l cuburi.",
+        "Taie legumele în fâșii subțiri.",
+        "Încălzește ulei într-o tigaie mare.",
+        "Rumenește tofu 5-6 minute pe toate părțile.",
+        "Adaugă legumele și gătește 6-8 minute.",
+        "Pune sos de soia și amestecă bine.",
+        "Servește simplu sau cu orez."
+      ]
+    },
+    {
+      "id": "r047",
+      "name": "Supă de linte roșie",
+      "description": "Sățioasă, vegană și potrivită pentru meal prep.",
+      "ingredients": [
+        "linte roșie",
+        "morcov",
+        "ceapă",
+        "usturoi",
+        "sos de roșii",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 340,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "high_protein",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic"
+      ],
+      "steps": [
+        "Clătește lintea roșie în apă rece.",
+        "Toacă ceapa, usturoiul și morcovul.",
+        "Călește ceapa și morcovul în ulei 4 minute.",
+        "Adaugă usturoiul și amestecă 30 de secunde.",
+        "Pune lintea, sosul de roșii și apă.",
+        "Fierbe 20-25 de minute până lintea se desface.",
+        "Servește ca atare sau blendează pentru o textură cremoasă."
+      ]
+    },
+    {
+      "id": "r048",
+      "name": "Pui cu cartofi la cuptor",
+      "description": "Rețetă completă, mai consistentă, pentru zile libere.",
+      "ingredients": [
+        "pulpe de pui",
+        "cartofi",
+        "usturoi",
+        "ulei",
+        "boia",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 60,
+      "difficulty": "HARD",
+      "calories": 680,
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free"
+      ],
+      "steps": [
+        "Preîncălzește cuptorul la 190°C.",
+        "Curăță cartofii și taie-i în bucăți mari.",
+        "Condimentează puiul cu sare, piper, boia și usturoi.",
+        "Pune cartofii și puiul într-o tavă.",
+        "Stropește cu ulei și amestecă ușor cartofii.",
+        "Adaugă puțină apă în tavă ca să nu se ardă.",
+        "Coace 45-55 de minute până puiul este rumenit."
+      ]
+    },
+    {
+      "id": "r049",
+      "name": "Salată cu ou și cartofi",
+      "description": "Sățioasă, potrivită pentru prânz rece.",
+      "ingredients": [
+        "cartofi",
+        "ouă",
+        "castraveți murați",
+        "iaurt",
+        "muștar",
+        "sare"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 430,
+      "allergens": [
+        "ou",
+        "lapte",
+        "muștar"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Fierbe cartofii în coajă până devin moi.",
+        "Fierbe ouăle 8-10 minute pentru ouă tari.",
+        "Lasă cartofii și ouăle să se răcească.",
+        "Taie cartofii cuburi și ouăle felii.",
+        "Taie castraveții murați bucăți mici.",
+        "Amestecă iaurtul cu muștarul și sarea.",
+        "Combină totul într-un bol și servește rece."
+      ]
+    },
+    {
+      "id": "r050",
+      "name": "Legume la cuptor cu năut",
+      "description": "Mâncare vegană, colorată și hrănitoare.",
+      "ingredients": [
+        "năut la conservă",
+        "cartofi",
+        "morcov",
+        "dovlecel",
+        "ardei",
+        "ulei",
+        "boia"
+      ],
+      "timeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "calories": 460,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic"
+      ],
+      "steps": [
+        "Preîncălzește cuptorul la 200°C.",
+        "Taie cartofii, morcovul, dovlecelul și ardeiul.",
+        "Scurge și clătește năutul.",
+        "Pune toate ingredientele într-o tavă.",
+        "Adaugă ulei, boia și puțină sare.",
+        "Amestecă bine ca legumele să fie acoperite.",
+        "Coace 35-40 de minute, amestecând o dată la jumătate."
+      ]
+    },
+    {
+      "id": "r051",
+      "name": "Clătite cu banană și ovăz",
+      "description": "Desert sau mic-dejun mai sănătos, fără făină albă.",
+      "ingredients": [
+        "banană",
+        "ouă",
+        "fulgi de ovăz",
+        "scorțișoară",
+        "ulei"
+      ],
+      "timeMinutes": 20,
+      "difficulty": "MEDIUM",
+      "calories": 390,
+      "allergens": [
+        "ou",
+        "gluten"
+      ],
+      "tags": [
+        "vegetarian",
+        "quick"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Pasează banana într-un bol.",
+        "Adaugă ouăle și amestecă bine.",
+        "Pune fulgii de ovăz și scorțișoara.",
+        "Lasă compoziția 5 minute să se lege.",
+        "Încălzește o tigaie cu foarte puțin ulei.",
+        "Pune câte o lingură de compoziție pentru fiecare clătită.",
+        "Gătește 2 minute pe fiecare parte."
+      ]
+    },
+    {
+      "id": "r052",
+      "name": "Ciorbă simplă de legume",
+      "description": "Ușoară, ieftină și potrivită pentru mai multe porții.",
+      "ingredients": [
+        "cartofi",
+        "morcov",
+        "ceapă",
+        "ardei",
+        "roșii",
+        "țelină",
+        "sare"
+      ],
+      "timeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "calories": 210,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Curăță și spală toate legumele.",
+        "Taie legumele în cuburi mici.",
+        "Pune ceapa, morcovul și țelina la fiert în apă.",
+        "După 10 minute adaugă cartofii și ardeiul.",
+        "Adaugă roșiile spre final.",
+        "Fierbe până toate legumele sunt moi.",
+        "Potrivește gustul cu sare și servește caldă."
+      ]
+    },
+    {
+      "id": "r053",
+      "name": "Paste cu pui și spanac",
+      "description": "Mai consistentă, potrivită când vrei o masă completă.",
+      "ingredients": [
+        "paste",
+        "piept de pui",
+        "spanac",
+        "smântână",
+        "usturoi",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 650,
+      "allergens": [
+        "gluten",
+        "lapte"
+      ],
+      "tags": [
+        "high_protein"
+      ],
+      "compatibleWith": [],
+      "steps": [
+        "Fierbe pastele conform instrucțiunilor.",
+        "Taie puiul cubulețe și condimentează-l.",
+        "Gătește puiul într-o tigaie 8-10 minute.",
+        "Adaugă usturoiul tocat și spanacul.",
+        "Lasă spanacul să se înmoaie 2-3 minute.",
+        "Pune smântâna și amestecă până se formează sosul.",
+        "Adaugă pastele scurse și combină totul."
+      ]
+    },
+    {
+      "id": "r054",
+      "name": "Salată de quinoa cu legume",
+      "description": "Ușoară, nutritivă și potrivită pentru dietă.",
+      "ingredients": [
+        "quinoa",
+        "roșii",
+        "castraveți",
+        "ardei",
+        "lămâie",
+        "ulei de măsline",
+        "sare"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "calories": 330,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Clătește quinoa în apă rece.",
+        "Fierbe quinoa 12-15 minute în apă.",
+        "Las-o să se răcească puțin după fierbere.",
+        "Taie roșiile, castraveții și ardeiul.",
+        "Pune quinoa și legumele într-un bol.",
+        "Adaugă ulei de măsline și suc de lămâie.",
+        "Amestecă și servește rece sau la temperatura camerei."
+      ]
+    },
+    {
+      "id": "r055",
+      "name": "Pește alb la cuptor cu legume",
+      "description": "Ușor, proteic și potrivit pentru o cină sănătoasă.",
+      "ingredients": [
+        "file de pește alb",
+        "morcov",
+        "dovlecel",
+        "lămâie",
+        "ulei de măsline",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 300,
+      "allergens": [
+        "pește"
+      ],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Preîncălzește cuptorul la 180°C.",
+        "Taie morcovul și dovlecelul felii subțiri.",
+        "Pune legumele într-o tavă cu puțin ulei.",
+        "Așază fileul de pește peste legume.",
+        "Condimentează cu sare, piper și suc de lămâie.",
+        "Acoperă tava cu folie pentru primele 15 minute.",
+        "Coace total 25-30 de minute, până peștele se desface ușor."
+      ]
+    },
+    {
+      "id": "r056",
+      "name": "Risotto simplu cu ciuperci",
+      "description": "Mai cremos și puțin mai complex, dar fără ingrediente rare.",
+      "ingredients": [
+        "orez",
+        "ciuperci",
+        "ceapă",
+        "unt",
+        "parmezan",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 40,
+      "difficulty": "HARD",
+      "calories": 540,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Toacă ceapa mărunt și taie ciupercile felii.",
+        "Călește ceapa în puțin unt până devine moale.",
+        "Adaugă ciupercile și gătește până scade apa.",
+        "Pune orezul și amestecă 1 minut.",
+        "Adaugă apă caldă treptat, câte puțin, amestecând des.",
+        "Continuă până orezul este cremos și gătit.",
+        "La final adaugă parmezan și potrivește piperul."
+      ]
+    },
+    {
+      "id": "r057",
+      "name": "Budincă de chia cu fructe",
+      "description": "Desert rapid de pregătit, dar trebuie lăsat la rece.",
+      "ingredients": [
+        "semințe de chia",
+        "lapte",
+        "banană",
+        "miere",
+        "fructe de pădure"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 280,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "low_calorie",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Pune semințele de chia într-un borcan sau bol.",
+        "Adaugă laptele și amestecă foarte bine.",
+        "Pune miere după gust.",
+        "Lasă la frigider cel puțin 2 ore sau peste noapte.",
+        "Amestecă din nou înainte de servire.",
+        "Adaugă banană feliată și fructe de pădure.",
+        "Servește rece ca mic-dejun sau desert."
+      ]
+    },
+    {
+      "id": "r058",
+      "name": "Sandwich cu ton și iaurt",
+      "description": "Rapid, proteic și potrivit pentru pachet.",
+      "ingredients": [
+        "pâine",
+        "ton la conservă",
+        "iaurt",
+        "castraveți",
+        "salată verde",
+        "lămâie"
+      ],
+      "timeMinutes": 10,
+      "difficulty": "EASY",
+      "calories": 420,
+      "allergens": [
+        "gluten",
+        "pește",
+        "lapte"
+      ],
+      "tags": [
+        "high_protein",
+        "quick"
+      ],
+      "compatibleWith": [
+        "diabetic"
+      ],
+      "steps": [
+        "Scurge tonul foarte bine.",
+        "Amestecă tonul cu iaurt și puțin suc de lămâie.",
+        "Taie castravetele felii subțiri.",
+        "Prăjește pâinea dacă vrei un sandwich crocant.",
+        "Pune salată verde pe prima felie.",
+        "Adaugă pasta de ton și castraveții.",
+        "Acoperă cu a doua felie și servește."
+      ]
+    },
+    {
+      "id": "r059",
+      "name": "Frittata cu cartofi",
+      "description": "O rețetă mai consistentă cu ouă, bună pentru mai multe porții.",
+      "ingredients": [
+        "ouă",
+        "cartofi",
+        "ceapă",
+        "ulei",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 460,
+      "allergens": [
+        "ou"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "diabetic"
+      ],
+      "steps": [
+        "Curăță cartofii și taie-i felii subțiri.",
+        "Călește cartofii în tigaie 10-12 minute până se înmoaie.",
+        "Adaugă ceapa tocată și gătește încă 3 minute.",
+        "Bate ouăle cu sare și piper.",
+        "Toarnă ouăle peste cartofi și ceapă.",
+        "Acoperă tigaia și gătește la foc mic 8-10 minute.",
+        "Servește caldă sau rece, tăiată felii."
+      ]
+    },
+    {
+      "id": "r060",
+      "name": "Tăiței de orez cu legume",
+      "description": "Variantă fără gluten, rapidă și ușoară.",
+      "ingredients": [
+        "tăiței de orez",
+        "morcov",
+        "ardei",
+        "dovlecel",
+        "sos de soia",
+        "ulei"
+      ],
+      "timeMinutes": 20,
+      "difficulty": "MEDIUM",
+      "calories": 390,
+      "allergens": [
+        "soia"
+      ],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "quick"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Pune tăițeii de orez în apă fierbinte conform instrucțiunilor.",
+        "Taie legumele în fâșii subțiri.",
+        "Încălzește ulei într-o tigaie mare.",
+        "Gătește legumele 5-6 minute, dar lasă-le ușor crocante.",
+        "Scurge tăițeii și adaugă-i peste legume.",
+        "Pune sos de soia și amestecă bine.",
+        "Servește imediat cât sunt calzi."
+      ]
+    },
+    {
+      "id": "r061",
+      "name": "Chili vegetarian cu fasole",
+      "description": "Sățios, ușor picant și bun pentru mai multe porții.",
+      "ingredients": [
+        "fasole la conservă",
+        "porumb",
+        "sos de roșii",
+        "ceapă",
+        "ardei",
+        "boia",
+        "ulei"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 430,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Toacă ceapa și ardeiul cubulețe.",
+        "Călește ceapa în ulei 3 minute.",
+        "Adaugă ardeiul și gătește încă 4 minute.",
+        "Pune fasolea scursă, porumbul și sosul de roșii.",
+        "Adaugă boia și puțină sare.",
+        "Fierbe la foc mic 20 de minute.",
+        "Servește simplu sau cu orez."
+      ]
+    },
+    {
+      "id": "r062",
+      "name": "Salată cu pui și iaurt",
+      "description": "Proteică, relativ ușoară și potrivită după cursuri.",
+      "ingredients": [
+        "piept de pui",
+        "salată verde",
+        "roșii",
+        "castraveți",
+        "iaurt",
+        "lămâie",
+        "sare"
+      ],
+      "timeMinutes": 25,
+      "difficulty": "EASY",
+      "calories": 350,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "diabetic"
+      ],
+      "steps": [
+        "Gătește pieptul de pui într-o tigaie sau fierbe-l.",
+        "Lasă puiul 2 minute să se răcească, apoi taie-l fâșii.",
+        "Spală salata, roșiile și castraveții.",
+        "Taie legumele în bucăți potrivite.",
+        "Amestecă iaurtul cu suc de lămâie și puțină sare.",
+        "Pune legumele și puiul într-un bol.",
+        "Adaugă dressingul de iaurt și amestecă ușor."
+      ]
+    },
+    {
+      "id": "r063",
+      "name": "Pizza rapidă pe lipie",
+      "description": "Variantă simplificată de pizza, gata rapid.",
+      "ingredients": [
+        "lipie",
+        "sos de roșii",
+        "cașcaval",
+        "porumb",
+        "ardei",
+        "șuncă"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "EASY",
+      "calories": 520,
+      "allergens": [
+        "gluten",
+        "lapte"
+      ],
+      "tags": [
+        "quick"
+      ],
+      "compatibleWith": [],
+      "steps": [
+        "Preîncălzește cuptorul sau air fryer-ul la 180°C.",
+        "Pune lipia pe o tavă cu hârtie de copt.",
+        "Întinde sos de roșii pe lipie.",
+        "Adaugă cașcaval ras, porumb, ardei și șuncă.",
+        "Coace 8-10 minute până cașcavalul se topește.",
+        "Lasă 1 minut să se răcorească.",
+        "Taie felii și servește."
+      ]
+    },
+    {
+      "id": "r064",
+      "name": "Dovlecei pane la cuptor",
+      "description": "Mai ușori decât cei prăjiți, dar tot gustoși.",
+      "ingredients": [
+        "dovlecel",
+        "ouă",
+        "pesmet",
+        "făină",
+        "sare",
+        "ulei"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 360,
+      "allergens": [
+        "ou",
+        "gluten"
+      ],
+      "tags": [
+        "vegetarian"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Preîncălzește cuptorul la 200°C.",
+        "Taie dovlecelul rondele sau bastonașe.",
+        "Presară puțină sare și lasă-l 5 minute.",
+        "Trece fiecare bucată prin făină, ou bătut și pesmet.",
+        "Pune bucățile pe tavă cu hârtie de copt.",
+        "Stropește foarte puțin ulei deasupra.",
+        "Coace 20-25 de minute până devin aurii."
+      ]
+    },
+    {
+      "id": "r065",
+      "name": "Supă miso simplificată",
+      "description": "Rapidă și ușoară, inspirată din bucătăria asiatică.",
+      "ingredients": [
+        "pastă miso",
+        "tofu",
+        "ceapă verde",
+        "tăiței de orez",
+        "apă"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "EASY",
+      "calories": 260,
+      "allergens": [
+        "soia"
+      ],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "quick",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "steps": [
+        "Pune apa la încălzit într-o cratiță.",
+        "Taie tofu cuburi mici.",
+        "Adaugă tăițeii de orez și fierbe-i câteva minute.",
+        "Oprește focul înainte să adaugi pasta miso.",
+        "Dizolvă pasta miso într-un polonic de apă caldă.",
+        "Adaugă miso în supă și amestecă.",
+        "Pune tofu și ceapă verde deasupra."
+      ]
+    },
+    {
+      "id": "r066",
+      "name": "Pui cu sos de roșii și măsline",
+      "description": "Rețetă mai aromată, dar încă ușor de făcut.",
+      "ingredients": [
+        "piept de pui",
+        "sos de roșii",
+        "măsline",
+        "usturoi",
+        "ulei",
+        "sare",
+        "piper"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "calories": 410,
+      "allergens": [],
+      "tags": [
+        "high_protein",
+        "gluten_free",
+        "lactose_free"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "diabetic"
+      ],
+      "steps": [
+        "Taie pieptul de pui în bucăți medii.",
+        "Condimentează puiul cu sare și piper.",
+        "Rumenește puiul în tigaie 5-6 minute.",
+        "Adaugă usturoiul tocat și amestecă scurt.",
+        "Pune sosul de roșii și măslinele.",
+        "Acoperă și fierbe 15-20 de minute la foc mic.",
+        "Servește cu orez, cartofi sau salată."
+      ]
+    },
+    {
+      "id": "r067",
+      "name": "Salată de sfeclă cu hrean",
+      "description": "Garnitură simplă, ușoară și fără alergeni comuni.",
+      "ingredients": [
+        "sfeclă roșie",
+        "hrean",
+        "ulei",
+        "oțet",
+        "sare"
+      ],
+      "timeMinutes": 15,
+      "difficulty": "EASY",
+      "calories": 160,
+      "allergens": [],
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "low_calorie"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian",
+        "vegan",
+        "diabetic",
+        "low_sodium"
+      ],
+      "steps": [
+        "Folosește sfeclă fiartă sau coaptă deja pregătită.",
+        "Taie sfecla cuburi sau dă-o pe răzătoare.",
+        "Adaugă hrean după gust.",
+        "Pune puțin ulei și oțet.",
+        "Amestecă bine toate ingredientele.",
+        "Lasă salata 5 minute să se combine aromele.",
+        "Servește ca garnitură sau gustare."
+      ]
+    },
+    {
+      "id": "r068",
+      "name": "Tortilla spaniolă",
+      "description": "Mai consistentă, bună pentru două mese.",
+      "ingredients": [
+        "ouă",
+        "cartofi",
+        "ceapă",
+        "ulei",
+        "sare"
+      ],
+      "timeMinutes": 45,
+      "difficulty": "HARD",
+      "calories": 520,
+      "allergens": [
+        "ou"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "lactose_free",
+        "high_protein"
+      ],
+      "compatibleWith": [
+        "lactose_free",
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Curăță cartofii și taie-i felii subțiri.",
+        "Taie ceapa solzișori.",
+        "Gătește cartofii și ceapa în tigaie până se înmoaie.",
+        "Bate ouăle într-un bol mare.",
+        "Amestecă ouăle cu cartofii și ceapa.",
+        "Pune compoziția înapoi în tigaie la foc mic.",
+        "Gătește pe ambele părți până tortilla se încheagă."
+      ]
+    },
+    {
+      "id": "r069",
+      "name": "Paste cu pesto și roșii cherry",
+      "description": "Rapidă, aromată și potrivită pentru cină.",
+      "ingredients": [
+        "paste",
+        "pesto",
+        "roșii cherry",
+        "parmezan",
+        "sare"
+      ],
+      "timeMinutes": 20,
+      "difficulty": "EASY",
+      "calories": 560,
+      "allergens": [
+        "gluten",
+        "lapte",
+        "nuci"
+      ],
+      "tags": [
+        "vegetarian",
+        "quick"
+      ],
+      "compatibleWith": [
+        "vegetarian"
+      ],
+      "steps": [
+        "Fierbe pastele conform instrucțiunilor.",
+        "Păstrează puțină apă de la paste înainte să le scurgi.",
+        "Taie roșiile cherry în jumătăți.",
+        "Amestecă pastele calde cu pesto.",
+        "Adaugă roșiile cherry și puțină apă de la paste.",
+        "Rade parmezan deasupra.",
+        "Servește imediat cât pastele sunt calde."
+      ]
+    },
+    {
+      "id": "r070",
+      "name": "Orez cu lapte",
+      "description": "Desert clasic, simplu și reconfortant.",
+      "ingredients": [
+        "orez",
+        "lapte",
+        "zahăr",
+        "scorțișoară",
+        "sare"
+      ],
+      "timeMinutes": 35,
+      "difficulty": "EASY",
+      "calories": 390,
+      "allergens": [
+        "lapte"
+      ],
+      "tags": [
+        "vegetarian",
+        "gluten_free",
+        "easy_digestion"
+      ],
+      "compatibleWith": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "steps": [
+        "Spală orezul în apă rece.",
+        "Pune laptele la fiert într-o cratiță.",
+        "Adaugă orezul și un praf de sare.",
+        "Fierbe la foc mic, amestecând des.",
+        "Când orezul este moale, adaugă zahăr după gust.",
+        "Mai fierbe 2-3 minute până devine cremos.",
+        "Servește cu scorțișoară deasupra."
+      ]
+    }
+  ]
+}
