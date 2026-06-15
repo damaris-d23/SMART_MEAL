@@ -4,8 +4,6 @@ SmartMeal is an Android mobile application that helps users discover recipe reco
 
 ## Screenshots
 
-## Screenshots
-
 ### Home Screen
 
 ![Home](home.png)
